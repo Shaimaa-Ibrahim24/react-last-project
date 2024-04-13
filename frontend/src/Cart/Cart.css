@@ -1,0 +1,52 @@
+.boxy{
+  width: 500px;
+  margin: 50px auto;
+  border-top: 2px solid rgb(109,176,221);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black !important;
+}
+
+.boxy .mynew{
+  width: 80px;
+  height: 70px;
+  border-radius: 10px;
+}
+.boxy .tito, .boxy .much{
+ display: flex;
+ 
+ align-items: center;
+}
+.yes{
+  color: #454545;
+  font-size: 16px;
+  font-weight: bold;
+}
+.much input{
+  width: 50px;
+  text-align: center;
+}
+.much p, .tito p{
+margin: 0;
+}
+.del{
+  width: 50px;
+  padding: 10px;
+  background-color: rgb(0, 60, 255);
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+@media(max-width:800px){
+  .boxy{
+    width: 380px;
+  }
+  .yes{
+    font-size: 13px;
+  }
+}

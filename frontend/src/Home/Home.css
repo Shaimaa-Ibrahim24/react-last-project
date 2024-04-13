@@ -1,0 +1,7 @@
+.cardo{
+  transition: 0.5s !important;
+}
+.cardo:hover{
+  rotate: 0.5deg;
+  scale: 1.01;
+}
